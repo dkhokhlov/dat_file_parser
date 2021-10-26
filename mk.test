@@ -1,0 +1,5 @@
+#!/bin/bash
+source ./env/etc/profile.d/conda.sh
+conda activate ./env
+python dat_file_parser.py --in test/data.dat --out test/data.json $*
+echo $?

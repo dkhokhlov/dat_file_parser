@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run -i dat_file_parser $*

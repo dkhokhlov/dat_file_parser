@@ -1,0 +1,122 @@
+{
+    "Wafer ID": "502",
+    "Time": "2020-04-06T04:32:15",
+    "System Parameters": {
+        "Voltage": {
+            "Value": 12.2,
+            "Units": "VDC"
+        },
+        "Humidity": {
+            "Value": 5.77,
+            "Units": "%"
+        }
+    },
+    "Instruments": [
+        {
+            "ID": 1,
+            "Vendor": "STANFORD_INSTR",
+            "Type": "AMP",
+            "Model": "5618MX",
+            "Serial": "28815920",
+            "Quantities": [
+                {
+                    "Name": "VOLTAGE",
+                    "Units": "VOLT"
+                },
+                {
+                    "Name": "FREQUENCY",
+                    "Units": "HZ"
+                },
+                {
+                    "Name": "IMPEDANCE",
+                    "Units": "OHM"
+                }
+            ]
+        },
+        {
+            "ID": 2,
+            "Vendor": "KEITHLEY",
+            "Type": "SOURCE_METER",
+            "Model": "5120P",
+            "Serial": "77872-1002",
+            "Quantities": [
+                {
+                    "Name": "VOLTAGE",
+                    "Units": "VOLT"
+                },
+                {
+                    "Name": "RESISTANCE",
+                    "Units": "OHM"
+                }
+            ]
+        },
+        {
+            "ID": 3,
+            "Vendor": "LINEAR_SYSTEMS",
+            "Type": "LCR_METER",
+            "Model": "LCR120",
+            "Serial": "A99-94-B788",
+            "Quantities": [
+                {
+                    "Name": "FREQUENCY SWEEP START",
+                    "Units": "HZ"
+                },
+                {
+                    "Name": "FREQUENCY SWEEP END",
+                    "Units": "HZ"
+                },
+                {
+                    "Name": "PEAK IMPEDANCE",
+                    "Units": "OHM"
+                }
+            ]
+        }
+    ],
+    "Measurements": {
+        "1000": [
+            {
+                "Instrument ID": 1,
+                "VOLTAGE": 1.28,
+                "FREQUENCY": 125441,
+                "IMPEDANCE": 574.12
+            },
+            {
+                "Instrument ID": 2,
+                "VOLTAGE": 0.6,
+                "RESISTANCE": 575.16
+            },
+            {
+                "Instrument ID": 3,
+                "FREQUENCY SWEEP START": 100,
+                "FREQUENCY SWEEP END": 100000,
+                "PEAK IMPEDANCE": 1006.33
+            }
+        ],
+        "1001": [
+            {
+                "Instrument ID": 1,
+                "VOLTAGE": 1.2805,
+                "FREQUENCY": 125602,
+                "IMPEDANCE": 655.2
+            },
+            {
+                "Instrument ID": 2,
+                "VOLTAGE": 0.6,
+                "RESISTANCE": 649.56
+            }
+        ],
+        "1002": [
+            {
+                "Instrument ID": 1,
+                "VOLTAGE": 1.28,
+                "FREQUENCY": 125599,
+                "IMPEDANCE": 775.99
+            },
+            {
+                "Instrument ID": 2,
+                "VOLTAGE": 0.6,
+                "RESISTANCE": 768.07
+            }
+        ]
+    }
+}
